@@ -1,11 +1,10 @@
+execute pathogen#infect()
+
 set ruler
 set nu
 set hlsearch
 set incsearch
 syntax enable
-
-colorscheme desert
-set background=dark
 
 set smartindent
 
@@ -107,7 +106,6 @@ nmap <space> za
 
 set noswapfile
 
-execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
