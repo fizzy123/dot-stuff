@@ -17,6 +17,6 @@ alias rm='rm -i'
 # alias cp='cp -i'
 # alias mv='mv -i'
 
-PS1='[\t]\W (｡◕‿‿◕｡)> '
-
 alias vi='vim'
+
+export PATH=$PATH:/usr/local/go/bin
